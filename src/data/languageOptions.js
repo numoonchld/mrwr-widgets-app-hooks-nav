@@ -10,6 +10,10 @@ const languageOptions = [
   {
     label: "Hindi",
     value: "hi"
+  },
+  {
+    label: "Dutch",
+    value: "nl"
   }
 ];
 
