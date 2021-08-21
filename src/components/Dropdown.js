@@ -55,7 +55,7 @@ const Dropdown = ({ label, selected, onSelectedChange, options }) => {
           </div>
         </div>
       </div>
-      <p className={selected.value}> {selected.label} </p>
+      {/* <p className={selected.value}> {selected.label} </p> */}
     </>
   );
 };
