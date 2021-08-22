@@ -32,6 +32,7 @@ const Accordion = ({ items }) => {
       <div className="ui styled accordion">
         {items.map((item, index) => (
           <AccordionElement
+            key={index}
             item={item}
             index={index}
             itemNumber={itemNumber}
